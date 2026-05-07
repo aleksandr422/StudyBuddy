@@ -1,0 +1,13 @@
+import { Text, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
+
+export default function HistoryScreen() {
+  return (
+    <SafeAreaView className="flex-1 bg-background">
+      <View className="flex-1 items-center justify-center">
+        <Text className="text-text text-xl font-semibold">History</Text>
+        <Text className="text-textMuted mt-1">Your past sessions will appear here.</Text>
+      </View>
+    </SafeAreaView>
+  );
+}
